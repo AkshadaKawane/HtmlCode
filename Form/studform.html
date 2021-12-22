@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="RegForm.css" rel="stylesheet">
+</head>
+<body>
+<table>
+    <tr>
+        <th>Student Registration Form</th>
+    </tr>
+
+    <tr>
+        <td>Name</td>
+        <td><input type="text" required></td>
+    </tr>
+        
+    <tr>
+        <td>Father Name</td>
+        <td><input type="text" required></td>
+    </tr>
+
+    <tr>
+        <td>Postal Address</td>
+        <td><input type="text" required></td>
+    </tr>
+
+    <tr>
+        <td>Personal Address</td>
+        <td><input type="text" required></td>
+    </tr>
+
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" id="male" name="gender"> male</td>
+        <td><input type="radio" id="female" name="gender">female</td>
+    </tr>
+
+    <tr>
+        <td>Status</td>
+        <td><input type="radio" id="single" name="status">Single</td>
+        <td><input type="radio" id="married" name="status">Married</td>
+        <td><input type="radio" id="devorced" name="status">Devorced</td>
+    </tr>
+
+    <tr>
+        <td>City</td>
+        <td>
+        <select class="option" name="city">
+        <option disabled="disabled" selected="selected">--Choose Option--</option>
+        <option>Pune</option>
+        <option>Mumbai</option>
+        <option>Nashik</option>
+        <option>KOlhapur</option>
+        <option>Satara</option>
+        <option>Ahamadnagr</option>
+      </select>
+      </td>
+    </tr>
+
+    <tr>
+        <td>Course</td>
+        <td>
+        <select class="option" name="course">
+        <option disabled="disabled" selected="selected">--Choose Option--</option>
+        <option>BA</option>
+        <option>BCS</option>
+        <option>BCA</option>
+        <option>MCS</option>
+        <option>MCA</option>
+        <option>BCOM</option>
+        <option>MCOM</option>
+      </select>
+      </td>
+    </tr>
+
+    <tr>
+        <td>District</td>
+        <td>
+        <select class="option" name="district">
+        <option disabled="disabled" selected="selected">--Choose Option--</option>
+        <option>Haveli</option>
+        <option>Junnar</option>
+        <option>Bhor</option>
+        <option>Mulshi</option>
+        <option>Shirur</option>
+      </select>
+      </td>
+    </tr>
+
+    <tr>
+        <td>State</td>
+        <td>
+        <select class="option" name="state">
+        <option disabled="disabled" selected="selected">--Choose Option--</option>
+        <option>Maharashtra</option>
+        <option>MadhyaPradesh</option>
+        <option>UttarPradesh</option>
+        <option>AndhraPradesh</option>
+      </select>
+      </td>
+      </tr>
+
+      <tr>
+          <td>Pin Code</td>
+          <td><input type="number"> </td>
+      </tr>
+
+      <tr>
+          <td>EmailId</td>
+          <td><input type="email"></td>
+      </tr>
+
+      <tr>
+          <td>DOB</td>
+          <td><input type="date" name="Date Of Birth"></td>
+      </tr>
+
+      <tr>
+          <td>Mobile No</td>
+          <td><input type="number"></td>
+      </tr>
+
+      <tr>
+          <td><button>Reset</button></td>
+      </tr>
+
+      <tr>
+          <td><button>Submit Form</button></td>
+      </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ main{
+     width:75%;
+     margin: 50px auto;
+     border: 1px solid gray;
+     display: grid;
+     grid-template-rows: 60px 100px 200px 60px;
+     grid-template-columns: repeat(3,1fr)  150px;
+     grid-gap: 20px;
+ }
+
+ .div1{ background-color: greenyellow; 
+        grid-column: 1/-1;
+}
+ .div2{ background-color: hotpink; }
+ .div3{ background-color: lightseagreen;  }
+ .div4{ background-color: mediumorchid; }
+ .div5{ background-color: orange; 
+        grid-row: 2/4;
+        /* Sidebar column 4 and 5 middle madhe anya sathi */
+        grid-column: 4/5;
+}
+ .div6{ background-color: seagreen;
+        grid-column: 1/4;
+}
+ .div7{ background-color: gold; 
+        grid-column: 1/-1;
+}

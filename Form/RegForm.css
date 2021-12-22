@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container1{
+    background-color: chartreuse;
+    border: 2px solid black;
+    color: black;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+   
+}
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION FORM USING TABLE IN HTML</title>
+    <link href="studeform1.css"rel="stylesheet">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h2>Student Registration Form Using Table In HTML</h2>
+    <form>
+    <table style= "color: green;">
+        <!-----------------First Name--------------->
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="FirstName" maxlength="50" placeholder="Akshada"/></td>
+        </tr>
+
+        <!-----------------Last Name--------------->
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="LastName" maxlength="50" placeholder="Kawane"/></td>
+        </tr>
+
+        <!-----------------Email ID--------------->
+        <tr>
+            <td>Email ID</td>
+            <td><input type="email" name="EmailID" maxlength="100" placeholder="akshadakawane3377@gmail.com"/></td>
+        </tr>
+
+        <!-----------------Mobile Number--------------->
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="number" name="MobileNumber" maxlength="10" placeholder="9123455678"/></td>
+        </tr>
+
+        <!-----------------Gender--------------->
+        <tr>
+            <td>Gender</td>
+            <td>
+               Male <input type="radio" name="Gender" value="Male"/>
+                Female <input type="radio" name="Gender" value="female"/>
+            </td>
+        </tr>
+
+        <!-----------------Date Of Birth--------------->
+        <tr>
+            <td>Date Of Birth(DOB)</td>
+            <td>
+                <select name="BirthDay" id="Birthday_Day">
+                    <option value="-1">Day:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                <select name="Birthday Month" id="Birthday_Month">
+                    <option value="-1">Month:</option>
+                    <option value="January">Jan(1)</option>
+                    <option value="February">Feb(2)</option>
+                </select>
+                <select name="BirthdayYear" id="Brithday_Year">
+                    <option value="-1">Year:</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-----------------Address--------------->
+        <tr>
+            <td>Address<br/><br/><br/></td>
+            <td>
+                <textarea name="Address" rows="10" cols="50"></textarea>
+            </td>
+        </tr>
+
+       <!-----------------City--------------->
+        <tr>
+            <td>City</td>
+            <td>
+                 <input type="text" name="City" maxlength="50" placeholder="Athani"/>
+            </td>
+        </tr>
+
+        <!-----------------Pin Code--------------->
+        <tr>
+            <td>Pin code</td>
+            <td>
+                 <input type="number" name="PinCode" maxlength="690987" placeholder="PinCode"/>
+            </td>
+        </tr>
+
+        <!-----------------State--------------->
+        <tr>
+            <td>State</td>
+            <td>
+               <input type="text" name="State" maxlength="50" placeholder="Maharashtra"/>
+            </td>
+        </tr>
+
+        <!-----------------Country--------------->
+        <tr>
+            <td>Country</td>
+            <td>
+                 <input type="text" name="Country" placeholder="India"/>
+             </td>
+        </tr>
+
+        <!-----------------Hobbies--------------->
+        <tr>
+            <td>Hobies</td>
+            <td>
+                Drawing
+                <input type="checkbox" name="HobbyDrawing" value="Drawing"/><br/><br/>
+                Singning
+                <input type="checkbox" name="HobbySinging" value="Singing"/><br/><br/>
+                Dancing
+                <input type="checkbox" name="HobbyDancing" value="Dancing"/><br/><br/>
+                Cooking
+                <input type="checkbox" name="HobbyCooking" value="Cooking"/><br/><br/>
+                Sketching
+                <input type="checkbox" name="HobbySketching" value="Sketching"/><br/><br/><br/>
+                Other
+                <input type="checkbox" name="HobbyOther" value="Other"/>
+                <input type="text" name="Other_Hobby" maxlength="50" placeholder="Ex-Teching"/>
+            </td>
+        </tr>
+
+        <!-----------------Qualification--------------->
+        <tr>
+            <td>Qualification</td>
+            <td>
+                <input type="checkbox" name="HighSchool" value="High School"/>
+                High School(10th)<br/>
+                <input type="checkbox" name="HigherSchool" value="HigherSchool"/>
+                Post Graduation(Masters)<br/>
+                <input type="checkbox" name="Phd" value="Phd"/>
+                Phd<br/>
+            </td>
+        </tr>
+
+        <!-----------------Course--------------->
+        <tr>
+            <td>Course</td>
+            <td>
+               BCA(Bachelor of computer Science)
+                <input type="radio" name="CourseBCA" value="BCA"/>
+               BCOM(Bachelor of Commerce)
+                <input type="radio" name="CourseBCOM" value="BCOM"/>
+               MCOM(Master of Commerce)
+                <input type="radio" name="CourseMCOM" value="MCOM"/>
+                BCS(Bachelor of Computer Science)
+                <input type="radio" name="CourseBCS" value="BCS"/>
+                MCS(Master of Computer Science)
+                <input type="radio" name="CourseMCS" value="MCS"/>
+            </td>
+        </tr>
+
+        <!-----------------Submit And Reset--------------->
+        <tr>
+            <td colspan="2" align="center">
+                <input type="Submit" value="Submit">
+                <input type="Reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

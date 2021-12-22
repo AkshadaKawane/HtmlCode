@@ -1,0 +1,40 @@
+.Regform{
+    background-color:khaki;
+    color:maroon;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(218, 28, 69);
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border:  2px solid rgb(218, 28, 69);
+    background-color: cornsilk;
+    margin: 10px;
+    padding:10px;
+    gap: 20px;
+}
+
+.container2,.container1{
+    border: 2px solid cadetblue;
+    background-color: cornsilk;
+    margin: 10px;
+    padding: 10px;
+    gap:20px;
+}
+
+button{
+    color:darkslategrey;
+    border-radius: 10px;
+    height: 20px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: black;
+    color:wheat;
+    margin: 20px;
+    padding: 20px;
+}
